@@ -1,0 +1,21 @@
+h1 {
+	text-align: center;
+}
+
+body {
+	background-color: green;
+}
+
+form{
+	width:400px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:white;
+}
+
+button {
+	background-color: green;
+	color: white;
+	width: 320px; 
+}

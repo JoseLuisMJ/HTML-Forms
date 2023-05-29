@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>GeeksforGeeks Survey Form</h1>
+    <section>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name">Nombre</label>
+                    <br>
+                    <input type="text" id="name" name="user-name">
+                </li>
+                <li>
+                    <label for="mail">Correo electrónico</label>
+                    <br>
+                    <input type="email" id="mail" name="user_mail">
+                </li>
+                <li>
+                    <label for="age">Edad</label>
+                    <br>
+                    <input type="text" id="age" name="user_age">
+                </li>
+                <br>
+                    <form action="#">
+                    <label for="lang">Would you recommed GeeksforGeeks to a friend?</label><br>
+
+                    <input type="radio" name="recomendación" value="1">Sí
+                    <br>
+                    <input type="radio" name="recomendación" value="2">No
+                    <br>
+                    <input type="radio" name="recomendación" value="3">Maybe
+                    
+                    <h2>Languges and Frameworks known (Check all that apply)</h2>
+                    <input type="checkbox" name="lenguaje" value="1">C
+                    <br>
+                    <input type="checkbox" name="lenguaje" value="2">C++
+                    <br>
+                    <input type="checkbox" name="lenguaje" value="3">C#
+                    <br>
+                    <input type="checkbox" name="lenguaje" value="4">Java
+                    <br>
+                    <input type="checkbox" name="lenguaje" value="5">Python
+                    <br>
+                    <input type="checkbox" name="lenguaje" value="6">Javascript
+                    <br>
+                    <input type="checkbox" name="lenguaje" value="7">React
+                    <br>
+                    <input type="checkbox" name="lenguaje" value="8">Angular
+                    <br>
+                    <input type="checkbox" name="lenguaje" value="9">Django
+                    <br>
+                    <input type="checkbox" name="lenguaje" value="10">Spring
+                    <br>
+                    <h2>Welcome To GeeksforGeeks</h2>
+                    <form>
+                        <textarea name="Any comments or suggestions" rows="3"
+                                  cols="40">
+                              
+                        </textarea>
+                    </form>
+                <li class="button">
+                    <button type="submit">Envíe su mensaje</button>
+                </li>
+        </form>
+        <script src="./app.js"></script>
+    </section>
+</body>
+</html>
